@@ -1,0 +1,30 @@
+<div>PATCH to https://stellarburgers.nomoreparties.site/api/auth/user</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;email&quot;: &quot;user1746989378367@example.com&quot;,
+    &quot;name&quot;: &quot;NewName1746989380762&quot;,
+    &quot;password&quot;: &quot;KRDnvAP9wj&quot;
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MjBmMTQ1OWVkMjgwMDAxYjVlMzY3NiIsImlhdCI6MTc0Njk4OTM4MSwiZXhwIjoxNzQ2OTkwNTgxfQ.kX2mPq4_3b9GHAPLlB1j6EQebN2XtmyFMpNvZ1aVd_w</div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X PATCH &#39;https://stellarburgers.nomoreparties.site/api/auth/user&#39; -H &#39;Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MjBmMTQ1OWVkMjgwMDAxYjVlMzY3NiIsImlhdCI6MTc0Njk4OTM4MSwiZXhwIjoxNzQ2OTkwNTgxfQ.kX2mPq4_3b9GHAPLlB1j6EQebN2XtmyFMpNvZ1aVd_w&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;email&quot;: &quot;user1746989378367@example.com&quot;,
+    &quot;name&quot;: &quot;NewName1746989380762&quot;,
+    &quot;password&quot;: &quot;KRDnvAP9wj&quot;
+}&#39;
+</div>
